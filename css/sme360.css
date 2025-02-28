@@ -161,7 +161,7 @@ ul.caret-right li:before {
 	padding-left: clamp(1.5rem,calc(-10rem + 19.16667vw),13rem);
 }
 .sme360-qualities__container {
-	background-color: var(--color-qualities-section-background);
+	background-color: #e1faff;
 	border-top-left-radius: clamp(4rem,calc(-14.5rem + 30.83333vw),22.5rem);
 	max-width: 100%;
 	padding-left: clamp(1.5rem,calc(-6.5rem + 13.33333vw),9.5rem);
@@ -185,8 +185,8 @@ ul.caret-right li:before {
 
 .sme360-qualities__benefit-item:hover {
     transform: translateY(-5px);
-    box-shadow: -10px 0 20px rgba(0, 255, 255, 0.7),  
-                10px 0 20px rgba(255, 0, 0, 0.7); /* Left Aqua, Right Red */
+    box-shadow: -10px 0 20px rgba(242, 255, 165, 0.979),  
+                10px 0 20px rgba(187, 255, 0, 0.7); /* Left Aqua, Right Red */
 }
 
 .sme360-qualities__benefit-item__title {
@@ -209,15 +209,15 @@ ul.caret-right li:before {
 }
 
 .sme360-qualities__benefit-item:nth-child(2) {
-    background: linear-gradient(45deg, #00a9dd, #ff0000); 
+    background: linear-gradient(225deg, #06e7e7, #e5e7eb); 
 }
 
 .sme360-qualities__benefit-item:nth-child(3) {
-    background: linear-gradient(225deg, #00a9dd, #ff0000); 
+    background: linear-gradient(45deg, #06e7e7, #e5e7eb); 
 }
 
 .sme360-qualities__benefit-item:nth-child(4) {
-    background: linear-gradient(315deg, #ff0000, #00a9dd); 
+    background: linear-gradient(315deg, #06e7e7, #e5e7eb); 
 }
 
 .sme360-qualities__benefit-wrapper {
@@ -242,7 +242,13 @@ ul.caret-right li:before {
 .sme360-qualities__benefit-item img {
     display: block;
     margin: 0 auto;
-    width: 60px;
+    width: 100px;
+    background: white;
+    padding: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .sme360-qualities__benefit-item__title {
